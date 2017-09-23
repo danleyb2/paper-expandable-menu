@@ -1,0 +1,47 @@
+{
+  "name": "paper-expandable-menu",
+  "version": "2.0.0",
+  "description": "Implements an accessible material design expandable menu",
+  "authors": [
+    "danleyb2 <danleyb2@gmail.com>"
+  ],
+  "keywords": [
+    "web-components",
+    "polymer",
+    "menu"
+  ],
+  "main": [
+    "paper-expandable-menu.html"
+  ],
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danleyb2/paper-expandable-menu"
+  },
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/danleyb2/paper-expandable-menu",
+  "ignore": [],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0",
+
+    "paper-listbox": "PolymerElements/paper-listbox#^2.0.0",
+    "paper-item": "PolymerElements/paper-item#^2.0.0",
+    "paper-styles": "PolymerElements/paper-styles#^2.0.0",
+
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#^2.0.0",
+    "iron-collapse": "PolymerElements/iron-collapse#^2.0.0",
+    "iron-menu-behavior": "PolymerElements/iron-menu-behavior#^2.0.1",
+
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+
+  },
+  "devDependencies": {
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
+    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
+    "iron-component-page": "PolymerElements/iron-component-page#^3.0.1"
+
+  },
+  "resolutions": {
+    "polymer": "^2.0.0"
+  }
+}
